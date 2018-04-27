@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='content' wx:if="{{ loaded }}">
+        <view class='item' wx:for="{{list}}" data-index='{{index}}' bindtap='move'>
+            <image style='width:200rpx; height: 200rpx;' src='{{item.url}}'></image>
+        </view>
+    </view>
+</view>

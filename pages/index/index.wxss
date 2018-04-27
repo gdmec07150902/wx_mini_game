@@ -1,0 +1,14 @@
+.content {
+    width: 609rpx;
+    height: 609rpx;
+    margin: 0 auto;
+    background: #000;
+}
+.item {
+    display: inline-block;
+    vertical-align: top;
+    width: 200rpx;
+    height: 200rpx;
+    text-align: center;
+    border: 1rpx solid #eee;
+}
